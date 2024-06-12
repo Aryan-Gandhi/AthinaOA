@@ -19,6 +19,7 @@ Before running this project, ensure you have the following installed on your loc
   - `results.csv`: The entire dataset containing questions, ground truths, LLM outputs, and context.
   - `test_dataset.csv`: A robust, comprehensive dataset of query-answer pairs.
 - `athina.pdf`: A sample PDF document to test the application.
+- `experiments/`: The folder containing the tests done using Llama-2-chat and Mistral-7b.
 
 ## Setup Instructions
 
