@@ -19,7 +19,7 @@ Before running this project, ensure you have the following installed on your loc
 ### 1. Clone the Repository
 Clone the repository to your local machine using the following command:
 ```sh
-git clone <repository_url>
+git clone https://github.com/Aryan-Gandhi/AthinaOA.git
 cd <repository_directory>
 ```
 
