@@ -1,5 +1,5 @@
 ## Project Overview
-This project enables you to upload a PDF file and interactively ask questions about its content using a conversational AI. The application uses Streamlit for the front-end, LangChain for text processing, and OpenAI for generating embeddings and responses.
+This project lets you upload a PDF file and interactively ask questions about its content using conversational AI. The application uses Streamlit for the front end, LangChain for text processing, and OpenAI for generating embeddings and responses.
 
 ## Prerequisites
 Before running this project, ensure you have the following installed on your local machine:
@@ -10,9 +10,15 @@ Before running this project, ensure you have the following installed on your loc
 - `app.py`: The main application script.
 - `requirements.txt`: A file listing all the dependencies required to run the project.
 - `.env`: A file to store environment variables such as API keys.
-- `notebooks/`: A directory for Jupyter notebooks (if any).
+- `notebooks/`: A directory for Jupyter notebooks.
+  - `evaluations.ipynb`: Code for evaluating the model on the test dataset.
+  - `OpenAI_Athina.ipynb`: Notebook for getting the LLM outputs and the context by running the chatbot model on the test dataset.
+  - `testset_generator.ipynb`: Code used to generate the test dataset.
 - `datasets/`: A directory for dataset files.
-- `athina.pdf`: PDF document to test the application.
+  - `RAGA_results.csv`: Evaluation results after RAGA was used for evaluation on the test dataset.
+  - `results.csv`: The entire dataset containing questions, ground truths, LLM outputs, and context.
+  - `test_dataset.csv`: A robust, comprehensive dataset of query-answer pairs.
+- `athina.pdf`: A sample PDF document to test the application.
 
 ## Setup Instructions
 
@@ -68,7 +74,3 @@ This command will start a local server and provide you with a URL (typically `ht
 
 ## Contact
 For any questions or issues, please reach out to aryangan@usc.edu.
-
----
-
-Feel free to modify and expand this README as per your project's specific requirements.
