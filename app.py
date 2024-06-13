@@ -11,11 +11,6 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.prompts import PromptTemplate
 from langchain.chains.conversation.memory import ConversationBufferMemory
 
-os.environ["OPENAI_API_KEY"] = "<ENTER KEY HERE>"
-
-# Load environment variables from a .env file
-load_dotenv()
-
 # Function to load the pdf files and extract text 
 def load_document(file):
     pdf_reader = PdfReader(file)
@@ -78,7 +73,11 @@ def clear_history():
 
 # Main function
 if __name__ == "__main__":
-    load_dotenv()
+    
+    with st.sidebar:
+        api_key = st.text_input('OpenAI API Key:', type='password')
+        if api_key:
+            os.environ['OPENAI_API_KEY'] = api_key
     st.header("Chat with Churchill Insurance")
 
     # File uploader widget for PDF upload
