@@ -1,5 +1,5 @@
 ## Project Overview
-This project lets you upload a PDF file and interactively ask questions about its content using conversational AI. The application uses Streamlit for the front end, LangChain for text processing, and OpenAI for generating embeddings and responses.
+This project lets you upload a PDF file and interactively ask questions about its content using conversational AI. 
 
 ## Prerequisites
 Before running this project, ensure you have the following installed on your local machine:
