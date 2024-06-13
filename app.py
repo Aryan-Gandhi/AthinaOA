@@ -11,6 +11,8 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.prompts import PromptTemplate
 from langchain.chains.conversation.memory import ConversationBufferMemory
 
+os.environ["OPENAI_API_KEY"] = "<ENTER KEY HERE>"
+
 # Load environment variables from a .env file
 load_dotenv()
 
