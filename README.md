@@ -51,6 +51,10 @@ streamlit run app.py --server.enableXsrfProtection false
 
 This command will start a local server and provide you with a URL (typically `http://localhost:8501`) that you can open in your web browser to interact with the application.
 
+### 5. If the webpage does not load, click enter and manually go to the URL shown
+
+### 6. Please enter the API key sent in the email before uploading files
+
 ## Using the Application
 
 ### 1. Upload a PDF
