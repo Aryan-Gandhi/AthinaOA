@@ -78,6 +78,7 @@ if __name__ == "__main__":
         api_key = st.text_input('OpenAI API Key:', type='password')
         if api_key:
             os.environ['OPENAI_API_KEY'] = api_key
+            st.success('API KEY Success!')
     st.header("Chat with Churchill Insurance")
 
     # File uploader widget for PDF upload
