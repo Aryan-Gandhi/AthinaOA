@@ -43,13 +43,7 @@ Install the required dependencies using the following command:
 pip install -r requirements.txt
 ```
 
-### 4. Set Up Environment Variables
-Create a `.env` file in the root directory of your project and add the necessary environment variables. It should look something like this:
-```
-OPENAI_API_KEY=your_openai_api_key (I have entered my personal OpenAI API Key, but I have set a limit to keep it from being misused.)
-```
-
-### 5. Run the Application
+### 4. Run the Application
 Execute the Streamlit application using the following command:
 ```sh
 streamlit run app.py --server.enableXsrfProtection false
