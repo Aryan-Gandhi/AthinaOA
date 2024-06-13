@@ -81,7 +81,7 @@ if __name__ == "__main__":
     st.header("Chat with Churchill Insurance")
 
     # File uploader widget for PDF upload
-    pdf = st.file_uploader("Upload your PDF", type='pdf')
+    pdf = st.file_uploader("Upload the Churchill pdf in the cloned folder.", type='pdf')
 
     if pdf:
         # Load and process the PDF file
