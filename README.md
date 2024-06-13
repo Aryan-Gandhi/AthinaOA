@@ -3,7 +3,7 @@ This project lets you upload a PDF file and interactively ask questions about it
 
 ## Prerequisites
 Before running this project, ensure you have the following installed on your local machine:
-- Python 3.9 +
+- Python 3.9 
 - Pip (Python package installer)
 
 ## Project Structure
